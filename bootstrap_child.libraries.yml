@@ -1,0 +1,9 @@
+global-styling:
+  css:
+    component:
+      css/style.css: {}
+      css/responsive.css: {}
+      '//fonts.googleapis.com/css?family=Rajdhani:400,700': {external: true}
+
+  js:
+    js/script.js: {}
