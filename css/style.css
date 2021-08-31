@@ -5,7 +5,7 @@
   max-width: 400px;
 }
 .max800 {
-  max-width: 800px;
+  max-width: none;
 }
 .nobrad {
   border-radius: unset !important;
@@ -67,19 +67,37 @@ hr {
   border-top: solid 1px #000;
   border-bottom: solid 1px #00233D;
 }
+.breadcrumb {
+  background-color: #000;
+  font-size: 14px;
+}
+.breadcrumb > .active {
+  color: inherit;
+}
+code {
+  background-color: #000;
+  color: #0077C9;
+  font-size: 14px;
+}
 .main-container {
   margin-top: 40px;
+  min-height: 500px;
 }
 .page-header {
-    border-bottom: none;
-    padding-bottom: 0px;
-    margin-bottom: 0;
+  border-bottom: none;
+  padding-bottom: 0px;
+  margin-bottom: 0;
+  text-align: center;
 }
 .page-header-border {
   padding-bottom: 9px;
   margin-bottom: 20px;
   margin-top: 0;
   padding: 0;
+}
+.main-container footer {
+  text-align: left;
+  padding-top: 10px;
 }
 
 /* Customize the label (the container) */
